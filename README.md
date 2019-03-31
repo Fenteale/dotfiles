@@ -12,12 +12,11 @@ This is my personal dotfiles that I use to configure my computer.  I currently u
 - pcmanfm
 - firefox
 
-##Credits
+## Credits
 
 - OB Theme found [here](https://www.opendesktop.org/p/1017849/)
 - Wallpaper created from images from [this](https://imgur.com/gallery/pzPmU) imgur album
 
-##Other Notes
+## Other Notes
 
-These tips are very helpful and I perform them after every Arch install.
-https://wiki.archlinux.org/index.php/Makepkg#Tips_and_tricks
+These tips are very helpful and I perform them after every Arch install: https://wiki.archlinux.org/index.php/Makepkg#Tips_and_tricks

@@ -29,7 +29,7 @@
 	<menu id="apps-editors-menu" label="Editors">
 		<item label="Code">
 			<action name="Execute">
-				<execute>code-git</execute>
+				<execute>code</execute>
 			</action>
 		</item>
 	</menu>

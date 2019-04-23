@@ -1,0 +1,18 @@
+#ignore whole home directory
+*
+#and everything above
+
+
+#except for:
+!bg.xcf
+!bgleft.png
+!bgright.png
+!.bash_profile
+!.bashrc
+!.conkyrc
+!.xinitrc
+!README.md
+!.gitignore
+!.themes/
+!.config/openbox/
+!.config/tint2

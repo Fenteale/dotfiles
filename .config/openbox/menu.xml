@@ -79,6 +79,16 @@
 				<execute>lutris</execute>
 			</action>
 		</item>
+		<item label="Steam">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
+		<item label="Mastercomfig">
+			<action name="Execute">
+				<execute>mastercomfig-app</execute>
+			</action>
+		</item>
 	</menu>
 	<menu id="apps-developer" label="Developer">
 		<item label="Virtual Box">

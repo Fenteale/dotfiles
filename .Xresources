@@ -1,0 +1,4 @@
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.font: xft:SourceCodePro:size=10
+

@@ -1,4 +1,9 @@
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
-URxvt.font: xft:SourceCodePro:size=10
+URxvt.font: xft:xos4 Terminus:size=14:antialias=false:encoding=combined
+URxvt.depth: 32
+URxvt.background: [80]#4c4f4e
+URxvt.foreground: white
+URxvt.scrollBar: false
+
 

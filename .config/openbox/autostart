@@ -26,4 +26,8 @@ dunst &
 
 feh --bg-center /home/fenteale/bgleft.png /home/fenteale/bgright.png &
 
-tint2 &
+#tint2 &
+
+trayer --expand true --widthtype request --transparent true --alpha 105 --tint black --edge top --align right &
+
+/usr/lib/kdeconnectd &

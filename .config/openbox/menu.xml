@@ -72,6 +72,11 @@
 				<execute>libreoffice</execute>
 			</action>
 		</item>
+		<item label="Day Planner">
+			<action name="Execute">
+				<execute>dayplanner</execute>
+			</action>
+		</item>
 	</menu>
 	<menu id="apps-games" label="Games">
 		<item label="Lutris">
@@ -141,39 +146,6 @@
 		</item>
 	</menu>
 	<menu id="apps-fileman-menu" label="File Managers">
-		<item label="Nautilus">
-			<action name="Execute">
-				<command>nautilus --no-desktop --browser</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="Thunar">
-			<action name="Execute">
-				<command>Thunar</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="KDE File Manager">
-			<action name="Execute">
-				<command>kfmclient openURL ~</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="Rox">
-			<action name="Execute">
-				<command>rox</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-					<wmclass>ROX-Filer</wmclass>
-				</startupnotify>
-			</action>
-		</item>
 		<item label="PCMan File Manager">
 			<action name="Execute">
 				<command>pcmanfm</command>
@@ -254,6 +226,16 @@
 					<enabled>no</enabled>
 					<icon>cups</icon>
 				</startupnotify>
+			</action>
+		</item>
+		<item label="Pulse Audio Controls">
+			<action name="Execute">
+				<execute>pavucontrol-qt</execute>
+			</action>
+		</item>
+		<item label="Mouse Settings">
+			<action name="Execute">
+				<execute>piper</execute>
 			</action>
 		</item>
 		<separator/>

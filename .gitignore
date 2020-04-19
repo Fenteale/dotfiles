@@ -17,3 +17,4 @@
 !.config/openbox/
 !.config/tint2
 !.Xresources
+!.config/compton.conf

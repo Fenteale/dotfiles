@@ -16,9 +16,9 @@
 #
 #xfce-mcs-manager &
 
-xrandr --output DisplayPort-1 --mode 1920x1080 --rate 74.99 --output DisplayPort-2 --mode 1920x1080 --rate 74.99 &
+xrandr --output DisplayPort-0 --mode 1920x1080 --rate 74.99 --output DisplayPort-1 --mode 1920x1080 --rate 74.99 &
 
-compton -C --backend glx --unredir-if-possible &
+picom --config ~/.config/compton.conf &
 
 conky &
 

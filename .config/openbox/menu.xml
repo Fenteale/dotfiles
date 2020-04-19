@@ -32,6 +32,11 @@
 				<execute>code</execute>
 			</action>
 		</item>
+		<item label="CodeBlocks">
+			<action name="Execute">
+				<execute>codeblocks</execute>
+			</action>
+		</item>
 	</menu>
 	<menu id="apps-term-menu" label="Terminals">
 		<item label="Rxvt Unicode">
@@ -63,6 +68,16 @@
 		<item label="Thunderbird">
 			<action name="Execute">
 				<execute>thunderbird</execute>
+			</action>
+		</item>
+		<item label="Slack">
+			<action name="Execute">
+				<execute>slack</execute>
+			</action>
+		</item>
+		<item label="Zoom">
+			<action name="Execute">
+				<execute>zoom</execute>
 			</action>
 		</item>
 	</menu>
@@ -103,45 +118,9 @@
 		</item>
 	</menu>
 	<menu id="apps-multimedia-menu" label="Multimedia">
-		<item label="Amarok">
+		<item label="Vlc">
 			<action name="Execute">
-				<command>amarok</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="Rhythmbox">
-			<action name="Execute">
-				<command>rhythmbox</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="K3b">
-			<action name="Execute">
-				<command>k3b</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="MPlayer">
-			<action name="Execute">
-				<command>gmplayer</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-					<wmclass>MPlayer</wmclass>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="Totem">
-			<action name="Execute">
-				<command>totem</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
+				<execute>vlc</execute>
 			</action>
 		</item>
 	</menu>
@@ -152,6 +131,13 @@
 				<startupnotify>
 					<enabled>yes</enabled>
 				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-streaming-menu" label="Streaming">
+		<item label="OBS">
+			<action name="Execute">
+				<execute>obs</execute>
 			</action>
 		</item>
 	</menu>
@@ -230,7 +216,7 @@
 		</item>
 		<item label="Pulse Audio Controls">
 			<action name="Execute">
-				<execute>pavucontrol-qt</execute>
+				<execute>pavucontrol</execute>
 			</action>
 		</item>
 		<item label="Mouse Settings">
@@ -253,6 +239,7 @@
 		<menu id="apps-games"/>
 		<menu id="apps-developer"/>
 		<menu id="apps-multimedia-menu"/>
+		<menu id="apps-streaming-menu"/>
 		<menu id="apps-term-menu"/>
 		<menu id="apps-fileman-menu"/>
 		<separator label="System"/>

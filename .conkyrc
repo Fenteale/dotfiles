@@ -66,5 +66,5 @@ conky.config = {
 }
 
 conky.text = [[
-${color white}$kernel ${goto 250}| CPU $cpu% $freq_g GHz ${goto 470}| RAM $mem ${goto 670}| $fs_free Free ${goto 870}| ${addr enp4s0} ${goto 1070}| ${time %b} ${time %d}, ${time %Y}  ${time %I}:${time %M} ${time %p} 
+${color white}$kernel ${goto 250}| CPU $cpu% $freq_g GHz ${goto 470}| RAM $mem ${goto 670}| $fs_free Free ${goto 870}| ${addr enp5s0} ${goto 1070}| ${time %b} ${time %d}, ${time %Y}  ${time %I}:${time %M} ${time %p} 
 ]]

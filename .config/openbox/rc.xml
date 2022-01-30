@@ -335,6 +335,11 @@
         <command>/home/fenteale/.config/scripts/ipget.sh</command>
       </action>
     </keybind>
+    <keybind key="0xB4">
+      <action name="Execute">
+        <command>/home/fenteale/.config/restartpicom.sh</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>

@@ -82,7 +82,7 @@
     </item>
     <item label="Slack">
       <action name="Execute">
-        <execute>slack</execute>
+        <execute>slack --disable-smooth-scrolling</execute>
       </action>
     </item>
     <item label="Zoom">
@@ -90,11 +90,27 @@
         <execute>zoom</execute>
       </action>
     </item>
+    <item label="Teams">
+      <action name="Execute">
+        <command>gtk-launch /home/fenteale/.local/share/applications/msedge-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.desktop</command>
+      </action>
+    </item>
+    <separator/>
+    <item label="Nheko">
+      <action name="Execute">
+        <command>nheko</command>
+      </action>
+    </item>
+    <item label="Element">
+      <action name="Execute">
+        <command>element-desktop</command>
+      </action>
+    </item>
   </menu>
   <menu id="apps-office-menu" label="Office">
     <item label="Libreoffice">
       <action name="Execute">
-        <execute>libreoffice</execute>
+        <execute>/home/fenteale/.config/noopencllibreoffice.sh</execute>
       </action>
     </item>
     <item label="Day Planner">
@@ -131,6 +147,11 @@
         <execute>ghidra</execute>
       </action>
     </item>
+    <item label="Virt Manager">
+      <action name="Execute">
+        <command>virt-manager</command>
+      </action>
+    </item>
     <item label="Virtual Box">
       <action name="Execute">
         <execute>virtualbox</execute>
@@ -154,6 +175,11 @@
     <item label="MATLAB">
       <action name="Execute">
         <command>alacritty -e /home/fenteale/MATLAB/bin/matlab</command>
+      </action>
+    </item>
+    <item label="Keil">
+      <action name="Execute">
+        <command>WINEPREFIX="/home/fenteale/keil/pfx_mdk/" /usr/bin/wine C:\\\\Keil_v5\\\\UV4\\\\UV4.EXE</command>
       </action>
     </item>
   </menu>
@@ -257,6 +283,11 @@
           <enabled>no</enabled>
           <icon>cups</icon>
         </startupnotify>
+      </action>
+    </item>
+    <item label="Helvum">
+      <action name="Execute">
+        <command>helvum</command>
       </action>
     </item>
     <item label="Pulse Audio Controls">

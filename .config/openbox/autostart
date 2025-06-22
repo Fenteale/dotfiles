@@ -18,14 +18,14 @@
 
 xrandr --output DisplayPort-0 --mode 1920x1080 --rate 74.99 --output DisplayPort-1 --mode 1920x1080 --rate 74.99 &
 
-picom &
+#picom &
 
 conky &
 
 dunst &
 
 #feh --bg-center /home/fenteale/bgleft.png /home/fenteale/bgright.png &
-feh --bg-center /home/fenteale/Pictures/TF2_Forwardbase_Kodai_Skybox.png /home/fenteale/Pictures/TF2_Forwardbase_Kodai_Skybox.png &
+feh --bg-center /home/fenteale/Pictures/mebg4.jpeg /home/fenteale/Pictures/mebg4.jpeg &
 
 #tint2 &
 

@@ -3,6 +3,8 @@
 #
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+#if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   #exec startx
-fi
+#fi
+
+#alias df df -h

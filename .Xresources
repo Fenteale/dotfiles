@@ -1,6 +1,7 @@
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
-URxvt.font: xft:xos4 Terminus:size=14:antialias=false:encoding=combined
+URxvt.font: xft:SourceCodePro-Light:size=12:antialias=false:encoding=combined
+URxvt.letterSpace: 0
 URxvt.depth: 32
 URxvt.background: [80]#4c4f4e
 URxvt.foreground: white
